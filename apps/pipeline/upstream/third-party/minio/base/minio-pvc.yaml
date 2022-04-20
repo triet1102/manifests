@@ -8,3 +8,5 @@ spec:
   resources:
     requests:
       storage: 20Gi
+  volumeName: pv-minio
+  storageClassName: managed-csi
