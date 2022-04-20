@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
 - mysql-deployment.yaml
+- pv-mysql.yaml
 - mysql-pv-claim.yaml
 - mysql-service.yaml
 - mysql-serviceaccount.yaml

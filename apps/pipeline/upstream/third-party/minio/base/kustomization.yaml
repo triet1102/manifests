@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
 - minio-deployment.yaml
+- pv-minio.yaml
 - minio-pvc.yaml
 - minio-service.yaml
 - mlpipeline-minio-artifact-secret.yaml
