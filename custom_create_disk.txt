@@ -1,0 +1,27 @@
+az disk create \
+  --resource-group MC_ResearchSandBox_NlpCluster_westeurope \
+  --name diskAuthservice \
+  --size-gb 10 \
+  --zone 1 \
+  --query id --output tsv
+  
+az disk create \
+--resource-group MC_ResearchSandBox_NlpCluster_westeurope \
+--name diskKatibMysql \
+--size-gb 10 \
+--zone 1 \
+--query id --output tsv
+
+az disk create \
+--resource-group MC_ResearchSandBox_NlpCluster_westeurope \
+--name diskMinio \
+--size-gb 20 \
+--zone 1 \
+--query id --output tsv
+
+az disk create \
+--resource-group MC_ResearchSandBox_NlpCluster_westeurope \
+--name diskMysql \
+--size-gb 20 \
+--zone 1 \
+--query id --output tsv
